@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
+import Header from "@/components/Header";
+import { StyleSheet, View } from "react-native";
 
 export default function Tab() {
   return (
     <View style={styles.container}>
-      <Text>Tab [Home|Settings]</Text>
+      <Header />
     </View>
   );
 }
