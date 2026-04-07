@@ -1,16 +1,16 @@
 import { StyleSheet, Text, View } from "react-native";
 
-//pagina que se acessa pela tab -> index
 export default function Tab() {
   return (
     <View style={styles.container}>
-      <Text>Index</Text>
+      <Text>Tab [Home|Settings]</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    // backgroundColor: "black",
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
