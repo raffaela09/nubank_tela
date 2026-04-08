@@ -7,10 +7,6 @@ export const styles = StyleSheet.create({
     paddingTop: statusBarHeight, //pra exibir a barra de status, mas acredito que tbm pode se usar safearea
     backgroundColor: "#530082",
     width: "100%",
-    position: "absolute",
-    top: 0, //pra prender a header no topo
-    left: 0, //estica a borda
-    right: 0,
     height: 200,
     alignItems: "center",
   },

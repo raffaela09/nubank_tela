@@ -3,6 +3,7 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { View } from "react-native";
 import { styles } from "./styles";
 
+//header personalizada
 export default function Header() {
   return (
     <View style={styles.container}>

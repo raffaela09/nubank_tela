@@ -15,7 +15,7 @@ export default function Layout() {
       {/* a lista que contem os components, ou elementos */}
       <TabList style={styles.container}>
         {/* a tab trigger serve para alterar entre as abas */}
-        <TabTrigger name="home" href="/" style={styles.button}>
+        <TabTrigger name="home" href="/" style={styles.buttonActive}>
           <FontAwesome6 name="arrow-right-arrow-left" size={23} color="white" />
         </TabTrigger>
 
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 50,
     elevation: 5,
-    shadowColor: "#a19d9d",
+    shadowColor: "#5e5d5daf",
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     shadowRadius: 10,
@@ -57,4 +57,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
   },
+  buttonActive:{
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    backgroundColor: "#520082a6",
+    borderRadius: 70,
+  }
 });
